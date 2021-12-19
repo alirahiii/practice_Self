@@ -1,0 +1,49 @@
+# def fib(n):
+#     if n <= 1:
+#         return n
+ 
+#     return fib(n - 1) + fib(n - 2)
+
+
+# a = fib(10)
+
+# print(a)
+
+# 0 1 1 2 3 5 8 13 21 34 47 
+
+
+
+
+
+
+# binary search 
+
+
+
+
+from typing import List
+
+
+def binary (arr :List , elm)->int:
+    temp =arr // 2 
+    left = arr[:temp]
+    right = arr[temp:] 
+    man =input(int())
+    while man not in arr:
+        if man in arr:
+            if man == temp :
+                return [temp] 
+            elif man <temp :
+                return binary()
+        
+            
+         
+    else: 
+        print(-1)
+
+
+
+
+a =binary([1,2,3,4])
+
+    
